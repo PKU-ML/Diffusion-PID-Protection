@@ -1,6 +1,11 @@
 # Diffusion-PID-Protection
 Implementation of the paper "PID: Prompt-Independent Data Protection Against Latent Diffusion Models"
 
+<center>
+  
+  ![image](illustration.png)
+</center>
+
 TODO:
 - [x] Initialize the repo. (2024/5/28)
 - [x] Training scripts & implementation of the PID.
@@ -9,12 +14,14 @@ TODO:
 - [] Implementation of the baselines (FSGM, ASPL, AdvDM).
 
 ### Protecting images with PID
+We place clean images from the CelebA-HQ dataset in ```./data/clean_images``` and the images already protected by PID in ```./data/PID_images```
 ```sh
   sh PID.sh
 ```
 
 
 ### Fine-tuning
+Fine-tuning can be started with a one-line command. Feel free to experiment with different training configurations.
 ```sh
   sh train_dreambooth.sh # DreamBooth
 
@@ -22,6 +29,7 @@ TODO:
 ```
 
 ### Evaluation
+Implementation of the 
 ```sh
   sh evaluate.sh
 ```
