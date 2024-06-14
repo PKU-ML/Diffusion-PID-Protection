@@ -1,5 +1,5 @@
 # Diffusion-PID-Protection
-Implementation of the paper "PID: Prompt-Independent Data Protection Against Latent Diffusion Models"
+Implementation of the ICML 2024 paper titled "PID: Prompt-Independent Data Protection Against Latent Diffusion Models" by Ang Li*, Yichuan Mo, Mingjie Li, [Yisen Wang](yisenwang.github.io).
 
 <center>
   
@@ -33,6 +33,9 @@ Implementation of the
 ```sh
   sh evaluate.sh
 ```
+
+### Contact Us
+Want to have a discussion with the authors? Please open a issue or send emails to charles_li@stu.pku.edu.cn
 
 ### Citation
 ```
