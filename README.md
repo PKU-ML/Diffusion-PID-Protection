@@ -3,7 +3,7 @@ Implementation of the ICML 2024 paper titled "PID: Prompt-Independent Data Prote
 
 <center>
   
-  #![image](illustration.png)
+  ![image](figure1.png)
 </center>
 
 TODO:
