@@ -14,7 +14,7 @@ TODO:
 - [] Implementation of the baselines (FSGM, ASPL, AdvDM).
 
 ### Protecting images with PID
-We place clean images from the CelebA-HQ dataset in ```./data/clean_images``` and the images already protected by PID in ```./data/PID_images```
+The minimum implementation of the PID is given in ```PID.py```. Besides, we place clean images from the CelebA-HQ dataset in ```./data/clean_images``` and the images already protected by PID in ```./data/PID_images```
 ```sh
   sh PID.sh
 ```
@@ -29,13 +29,13 @@ Fine-tuning can be started with a one-line command. Feel free to experiment with
 ```
 
 ### Evaluation
-Implementation of the 
+Implementation of the metrics used in the paper can be found in ```evaluate.py```.
 ```sh
   sh evaluate.sh
 ```
 
 ### Contact Us
-Want to have a discussion with the authors? Please open a issue or send emails to charles_li@stu.pku.edu.cn
+Want to have a discussion with the authors? Please open issues or send emails to charles_li@stu.pku.edu.cn
 
 ### Citation
 ```
