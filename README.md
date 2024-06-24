@@ -1,6 +1,6 @@
 # Diffusion-PID-Protection
 Implementation of the ICML 2024 paper titled "PID: Prompt-Independent Data Protection Against Latent Diffusion Models" by Ang Li*, Yichuan Mo, Mingjie Li, [Yisen Wang](yisenwang.github.io).
-
+Our paper is available at http://arxiv.org/abs/2406.15305.
 <center>
   
   ![image](figure1.png)
