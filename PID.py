@@ -185,7 +185,7 @@ def main(args):
                           for path in dataset.instance_images_path]
             self.size = dataset.size
         
-        def forward(self, vae, x, index, poison=False, return_embedding=False):
+        def forward(self, vae, x, index, poison=False):
             # Check whether we need to add perturbation
             if poison:
                 self.delta[index].requires_grad_(True)
@@ -193,7 +193,7 @@ def main(args):
             
             # Normalize to [-1, 1]
             input_x = 2 * x - 1
-            return vae.encode(input_x.to(device), return_embedding=return_embedding)
+            return vae.encode(input_x.to(device))
         
     attackmodel = AttackModel()
     
